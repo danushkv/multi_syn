@@ -78,8 +78,16 @@ body {
     text-decoration: underline;
 }
 
+.author-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Or 'center' for vertical centering */
+  gap: 1em; /* Optional: space between blocks */
+}
+
 .author-block {
   display: inline-block;
+  vertical-align: top; /* Ensures both are aligned at the top */
 }
 
 .publication-banner img {
